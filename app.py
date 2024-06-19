@@ -4,7 +4,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 import numpy as np
 import faiss
-from transformers import T5Tokenizer, T5ForConditionalGeneration
+from transformers import T5Tokenizer, T5ForConditionalGeneration, AutoTokenizer, AutoModelForConditionalGeneration
 from Templates import css, bot_template, user_template, render_pdf
 
 # Define a class for FAISS retriever
@@ -53,9 +53,9 @@ def get_vectorstore(text_chunks):
 
 # Function to initialize the T5 conversational model
 def get_conversation_model():
-    local_model_path = "MBZUAI\LaMini-T5-738M"  # Replace with your local model path
-    tokenizer = T5Tokenizer.from_pretrained(local_model_path)
-    model = T5ForConditionalGeneration.from_pretrained(local_model_path)
+    model_name = "MBZUAI/LaMini-T5-738M"
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForConditionalGeneration.from_pretrained(model_name)
     return tokenizer, model
 
 # Function to generate response from T5 model given an input query
