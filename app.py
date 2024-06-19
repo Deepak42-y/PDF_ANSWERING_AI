@@ -6,6 +6,7 @@ import numpy as np
 import faiss
 from transformers import T5Tokenizer, T5ForConditionalGeneration, AutoTokenizer, AutoModelForConditionalGeneration
 from Templates import css, bot_template, user_template, render_pdf
+from dotenv import load_dotenv
 
 # Define a class for FAISS retriever
 class FAISSRetriever:
@@ -66,6 +67,8 @@ def generate_response(input_text, tokenizer, model, max_length=100):
 
 # Main function to run the Streamlit app
 def main():
+    # Load environment variables from .env file
+    load_dotenv()
     st.set_page_config(page_title="Chat with multiple PDFs", page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
     
