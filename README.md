@@ -74,9 +74,6 @@ This project is a Streamlit-based application that allows users to chat with mul
 - **CSS and HTML Templates**: Contains the styles and structure for the chat interface, including user and bot message templates and the PDF preview window.
 - **render_pdf**: Function to render PDF files in an iframe for preview.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
 
 ## Acknowledgements
 
