@@ -54,9 +54,9 @@ def get_vectorstore(text_chunks):
 
 # Function to initialize the T5 conversational model
 def get_conversation_model():
-    model_name = "MBZUAI/LaMini-T5-738M"
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForConditionalGeneration.from_pretrained(model_name)
+    local_model_path = "MBZUAI/LaMini-T5-738M"
+    tokenizer = T5Tokenizer.from_pretrained(local_model_path)
+    model = T5ForConditionalGeneration.from_pretrained(local_model_path)
     return tokenizer, model
 
 # Function to generate response from T5 model given an input query
