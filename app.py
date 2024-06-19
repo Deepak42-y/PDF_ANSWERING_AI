@@ -4,7 +4,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 import numpy as np
 import faiss
-from transformers import T5Tokenizer, T5ForConditionalGeneration, AutoTokenizer, AutoModelForConditionalGeneration
+from transformers import T5Tokenizer, T5ForConditionalGeneration, AutoTokenizer
 from Templates import css, bot_template, user_template, render_pdf
 from dotenv import load_dotenv
 
