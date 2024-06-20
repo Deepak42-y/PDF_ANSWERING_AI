@@ -92,4 +92,8 @@ This project is a Streamlit-based application that allows users to chat with mul
 - [FAISS](https://faiss.ai/)
 - [Hugging Face](https://huggingface.co/)
 
+
+https://github.com/Deepak42-y/PDF_ANSWERING_AI/assets/98938557/eb40692d-dc21-4e5b-a7ad-0aa178025de5
+
+
   
