@@ -1,3 +1,5 @@
+## Here is the streamlit deployed app link- https://pdfansweringaig-dkxmcxj4zgzk9hipeo6vkx.streamlit.app/
+Please Follow instruction.txt for make model to work.
 # Chat with Multiple PDFs
 
 This project is a Streamlit-based application that allows users to chat with multiple PDF documents. It uses FAISS for efficient document retrieval and a T5 model for generating responses. The PDF documents are processed, and the text is split into manageable chunks, vectorized, and stored in a FAISS index. Users can then ask questions, and the system retrieves relevant document sections to generate responses.
@@ -90,5 +92,4 @@ This project is a Streamlit-based application that allows users to chat with mul
 - [FAISS](https://faiss.ai/)
 - [Hugging Face](https://huggingface.co/)
 
-  ## Here is the streamlit deployed app link- https://pdfansweringaig-dkxmcxj4zgzk9hipeo6vkx.streamlit.app/
-Please Follow instruction.txt for make model to work.
+  
