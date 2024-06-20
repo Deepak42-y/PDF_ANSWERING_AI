@@ -2,6 +2,8 @@
 
 This project is a Streamlit-based application that allows users to chat with multiple PDF documents. It uses FAISS for efficient document retrieval and a T5 model for generating responses. The PDF documents are processed, and the text is split into manageable chunks, vectorized, and stored in a FAISS index. Users can then ask questions, and the system retrieves relevant document sections to generate responses.
 
+-![Screenshot 2024-06-10 233925](https://github.com/Deepak42-y/PDF_ANSWERING_AI/assets/98938557/768dd58e-24aa-48eb-aee1-370111fcf5b5)
+
 ## Features
 
 - Upload and process multiple PDF files
@@ -14,13 +16,14 @@ This project is a Streamlit-based application that allows users to chat with mul
 ## Prerequisites
 
 - Python 3.7 or higher
-- Required Python packages (see `requirements.txt`)
+
+ Required Python packages (see `requirements.txt`)
 
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/yourrepository.git
+    git clone https://github.com/Deepak42-y/PDF_ANSWERING_AI.git
     cd yourrepository
     ```
 
@@ -46,10 +49,14 @@ This project is a Streamlit-based application that allows users to chat with mul
     ```
 
 2. Open your web browser
+![Screenshot 2024-06-19 154804](https://github.com/Deepak42-y/PDF_ANSWERING_AI/assets/98938557/1554eb86-a0c0-4257-ab7b-0a19305c76ab)
 
-3. Upload your PDF files using the sidebar, click "Process", and wait for processing to complete.
 
-4. Ask questions about the uploaded documents in the main chat interface.
+4. Upload your PDF files using the sidebar, click "Process", and wait for processing to complete.
+   ![Screenshot 2024-06-19 155103](https://github.com/Deepak42-y/PDF_ANSWERING_AI/assets/98938557/5f9f4ce0-2835-4bcb-9e04-5d79bb958b53)
+
+
+6. Ask questions about the uploaded documents in the main chat interface.
 
 ## File Structure
 
