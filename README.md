@@ -57,6 +57,7 @@ This project is a Streamlit-based application that allows users to chat with mul
 
 
 6. Ask questions about the uploaded documents in the main chat interface.
+   Note: Please Download "MBZUAI/LaMini-T5-738M" model from hugging face at your folder location using code from trial.ipynb
 
 ## File Structure
 
@@ -88,3 +89,6 @@ This project is a Streamlit-based application that allows users to chat with mul
 - [SentenceTransformers](https://www.sbert.net/)
 - [FAISS](https://faiss.ai/)
 - [Hugging Face](https://huggingface.co/)
+
+  ## Here is the streamlit deployed app link- https://pdfansweringaig-dkxmcxj4zgzk9hipeo6vkx.streamlit.app/
+Please Follow instruction.txt for make model to work.
